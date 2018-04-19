@@ -1,0 +1,27 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>sql form</title>
+</head>
+<body>
+
+	<h1>Form to insert data</h1>
+
+	<form action="insert.php" method="post" >
+			 Enter ID:<input class="box" type="text" name="Id" value=""/><br>
+			 Enter First Name:<input class="box" type="text" name="First" value=""/></br>
+			 Enter Last Name:<input class="box" type="text" name="Last" value=""/>
+			 Dietry requirements:<input class="box" type="text" name="Diet" value=""/>
+			 Attending:<input class="box" type="text" name="Attend" value=""/>
+
+			 <input type="submit" name="submit" id="submit" value="insert data"/>
+	</form>
+	
+	<form action="delete.php" method="post" >
+			<p>Delete an entry:</p>
+			 Enter ID:<input class="box" type="text" name="IdDel" value=""/><br>
+
+			 <input type="submit" name="submit" id="submit" value="Delete data"/>
+	</form>
+</body>
+</html>
